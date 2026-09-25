@@ -1,0 +1,6 @@
+{
+  "draftId":"D01",
+  "note":{"text":"Customer requested the security questionnaire by Friday.","supportSpanIds":["S1"]},
+  "nextAction":{"text":"Send the security questionnaire by Friday and follow up Monday.","material":true,"commitment":true,"supportSpanIds":["S1","S2"],"contradictionSpanIds":[]},
+  "sourceSpans":[{"id":"S1","start":36,"end":85,"quote":"Please send the security questionnaire by Friday."},{"id":"S2","start":91,"end":137,"quote":"I will send it Friday and follow up on Monday."}]
+}

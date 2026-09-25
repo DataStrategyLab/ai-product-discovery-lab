@@ -1,0 +1,6 @@
+{
+  "draftId":"D03",
+  "note":{"text":"Customer is pausing the evaluation for now.","supportSpanIds":["S1"]},
+  "nextAction":{"text":"","material":true,"commitment":false,"supportSpanIds":[],"contradictionSpanIds":[]},
+  "sourceSpans":[{"id":"S1","start":56,"end":104,"quote":"Not yet. We are pausing this evaluation for now."}]
+}

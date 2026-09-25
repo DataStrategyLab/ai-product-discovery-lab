@@ -1,0 +1,6 @@
+{
+  "draftId":"D04",
+  "note":{"text":"Customer requires legal approval before a proposal is sent.","supportSpanIds":["S1","S2"]},
+  "nextAction":{"text":"Send the proposal today.","material":true,"commitment":true,"supportSpanIds":[],"contradictionSpanIds":["S1","S2"]},
+  "sourceSpans":[{"id":"S1","start":46,"end":100,"quote":"Please do not send a proposal until legal approves it."},{"id":"S2","start":118,"end":149,"quote":"I will wait for legal approval."}]
+}

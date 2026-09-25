@@ -1,0 +1,16 @@
+{
+  "name": "cedarline-workshop-starter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "No-dependency participant starter for the fictional Cedarline review-first Codex lab.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "baseline": "node --test tests/baseline.test.js tests/fixture-integrity.test.js",
+    "test": "node --test tests/*.test.js",
+    "lab:reset": "node scripts/reset-lab.mjs"
+  }
+}

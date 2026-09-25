@@ -1,0 +1,3 @@
+Rep: Is there a next step we should schedule?
+Customer: Not yet. We are pausing this evaluation for now.
+Rep: Understood.

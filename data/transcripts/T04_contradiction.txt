@@ -1,0 +1,3 @@
+Rep: I can send the proposal today.
+Customer: Please do not send a proposal until legal approves it.
+Rep: Understood. I will wait for legal approval.

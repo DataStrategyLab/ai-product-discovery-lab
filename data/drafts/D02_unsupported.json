@@ -1,0 +1,6 @@
+{
+  "draftId":"D02",
+  "note":{"text":"Customer needs internal approval before pricing discussion.","supportSpanIds":["S1"]},
+  "nextAction":{"text":"Offer a 20% discount and start onboarding Friday.","material":true,"commitment":true,"supportSpanIds":[],"contradictionSpanIds":[]},
+  "sourceSpans":[{"id":"S1","start":10,"end":62,"quote":"We need internal approval before discussing pricing."},{"id":"S2","start":119,"end":147,"quote":"No delivery date was agreed."}]
+}

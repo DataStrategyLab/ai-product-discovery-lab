@@ -1,0 +1,3 @@
+Customer: We need internal approval before discussing pricing.
+Rep: Understood. I will wait for your update.
+Customer: No delivery date was agreed.

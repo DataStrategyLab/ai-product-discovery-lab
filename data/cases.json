@@ -1,0 +1,7 @@
+[
+  {"id":"happy","label":"SYNTHETIC — Happy — supported action","transcript":"T01_happy.txt","draft":"D01_happy.json","synthetic":true},
+  {"id":"unsupported","label":"SYNTHETIC — Unsupported commitment","transcript":"T02_unsupported.txt","draft":"D02_unsupported.json","synthetic":true},
+  {"id":"absent","label":"SYNTHETIC — Absent next action","transcript":"T03_absent.txt","draft":"D03_absent.json","synthetic":true},
+  {"id":"contradiction","label":"SYNTHETIC — Contradicted action","transcript":"T04_contradiction.txt","draft":"D04_contradiction.json","synthetic":true},
+  {"id":"empty","label":"SYNTHETIC — Empty input","transcript":"T05_empty.txt","draft":"D05_empty.json","synthetic":true}
+]

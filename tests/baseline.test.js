@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { loadCaseIndex, loadCase } from '../src/fixture-loader.js';
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+test('starter contains the required workshop contract files', async()=>{for(const relative of ['AGENTS.md','README.md','docs/PRD.md','docs/CONTEXT_HANDOFF.md','docs/EVAL_SPEC.md']){const text=await readFile(path.join(ROOT,relative),'utf8');assert.ok(text.length>40,`${relative} should be substantive`)}});
+test('starter is intentionally no-dependency and no-credential', async()=>{const pkg=JSON.parse(await readFile(path.join(ROOT,'package.json'),'utf8'));assert.equal(pkg.dependencies,undefined);assert.equal(pkg.devDependencies,undefined);const handoff=await readFile(path.join(ROOT,'docs/CONTEXT_HANDOFF.md'),'utf8');assert.match(handoff,/No live CRM write or sending/i)});
+test('all five labeled synthetic fixtures load', async()=>{const cases=await loadCaseIndex();assert.equal(cases.length,5);for(const item of cases){assert.equal(item.synthetic,true);assert.match(item.label,/^SYNTHETIC — /);const loaded=await loadCase(item.id);assert.equal(loaded.id,item.id)}});
