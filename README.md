@@ -2,7 +2,7 @@
 
 > **FICTIONAL / SYNTHETIC CLASSROOM CASE — NOT CUSTOMER RESEARCH**
 
-This is the participant starter for the **ChatGPT → PRD handoff**, **Codex inspect/build/review lab**, and **7-minute test/repair/log lab**. It is intentionally runnable but incomplete in the exact portion participants ask Codex to build.
+This is the participant starter for the **ChatGPT → PRD handoff**, **Codex inspect/build/review lab**, and **test/repair/log lab**. It is intentionally runnable but incomplete in the exact portion participants ask Codex to build.
 
 Canonical public repository: `DataStrategyLab/ai-product-discovery-lab`.
 
